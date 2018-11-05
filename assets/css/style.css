@@ -1,0 +1,22 @@
+.jumbotron{           /* to style the title*/
+    font-size: 43px;
+    border: solid 5px #fff;
+    color: #fff;
+    background: #875306;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;    
+    padding: 15px;
+    font-family: 'Stalinist One', cursive;   
+}
+
+body {               /* to style the body with back ground image*/
+    background-image: url("../images/books.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
