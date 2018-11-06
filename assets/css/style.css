@@ -1,22 +1,62 @@
 .jumbotron{           /* to style the title*/
     font-size: 43px;
-    border: solid 5px #fff;
+    border: solid 5px rgb(185, 8, 8);
     color: #fff;
-    background: #875306;
+    background: #000;
     text-align: center;
     margin-top: 2%;
     margin-left: 20%;
     margin-right:20%;    
-    padding: 15px;
-    font-family: 'Stalinist One', cursive;   
+    padding: 15px;     
 }
 
-body {               /* to style the body with back ground image*/
-    background-image: url("../images/books.jpg");
-    width: 100%;
-    background-size: cover;
+body {
+    background-image: url('../images/horror.jpg'); 
     background-repeat: no-repeat;
+    background-size: 100%;   
+    background-color: #000;    
 }
 
+button{
+    border: solid 2px rgb(185, 8, 8);
+    color: #fff;
+    background-color: #000;
+}
+
+button:hover{
+    background-color: rgb(185, 8, 8);        
+}
+
+button:active{
+    background-color: #fff;
+    outline: none;
+}
+
+button:focus{
+    outline: 0;
+}
+
+#add-movie,
+#movie-input{
+    border: solid 2px rgb(185, 8, 8);
+    color: #fff;
+    background-color: #000;
+}
+
+#movie-input:focus{
+    outline: 0;
+}
+label{
+    color: #fff;
+}
+
+#gifs-appear-here{    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+p{
+    color: #fff;
+}
 
 
