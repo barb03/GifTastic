@@ -10,68 +10,62 @@
     padding: 15px;     
 }
 
-body {
+body {                /* style for the body and background image */
     background-image: url('../images/horror.jpg'); 
     background-repeat: no-repeat;
     background-size: 100%;   
     background-color: #000;    
 }
 
-button{
+button{             /* button styles */
     margin: 3px;
     border: solid 2px rgb(185, 8, 8);
     color: #fff;
     background-color: #000;
 }
 
-button:hover{
+button:hover{       /* button hover styles */
     background-color: rgb(185, 8, 8);        
 }
 
-button:active{
+button:active{     /* button active styles */
     background-color: #fff;
     outline: none;
 }
 
-button:focus{
+button:focus{     /* to get rid of blue border on button click */
     outline: 0;
 }
 
 #add-movie,
-#movie-input{
+#movie-input{     /* button styles */
     border: solid 2px rgb(185, 8, 8);
     color: #fff;
     background-color: #000;
 }
 
-#movie-input:focus{
+#movie-input:focus{  /* button focus styles */
     outline: 0;
 }
 
-#add-movie:hover{
+#add-movie:hover{    /* button hover styles */
     background-color: rgb(185, 8, 8);   
 }
 
-#add-movie:active{
+#add-movie:active{  /* button active styles */
     background-color: #fff;
     outline: none;
 }
 
-#add-movie:focus{
+#add-movie:focus{   /* button focus styles */
     outline: 0;
 }
 
-label{
+label{             /* label styles */
     color: #fff;
 }
 
-#GIFArea{    
+#GIFArea{          /* gif styles */
     display: flex;
     flex-wrap: wrap;    
 }
-
-p{
-    color: #fff;
-}
-
-
