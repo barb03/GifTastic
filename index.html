@@ -12,33 +12,31 @@
         <link rel="shortcut icon" href="./assets/images/favicon.png" />
         <!--  jQuery -->
         <script src="https://code.jquery.com/jquery.js"></script>
+        <!--Ajax-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
        
     </head>
-    <body>          
-        <div class="container">            
+
+    <body>
+        <div class="container">
             <div class="jumbotron">
-                <h1>Horror Movies</h1>             
-            </div>  <!--end jumbotron--> 
-                       
-            <button data-horror="it">It</button>
-            <button data-horror="frankenstein">Frankenstein</button>
-            <button data-horror="dracula">Bram Stoker's Dracula</button> 
-            <br><br>
+                <h1>Horror Movies</h1>
+            </div> <!--end jumbotron-->       
+        
+            <div id="movies-view"></div>
+        
             <form id="movieBtn">
                 <label for="movie-input">Movie Name: </label>
-                <input type="text" id="movie-input">
-          
-                <!-- Button triggers new movie to be added -->
+                <input type="text" id="movie-input" onfocus="this.value='';">                                  
                 <input id="add-movie" type="submit" value="Submit movie">
-              </form>
-
-            <div class="row" id="gifs">
-                <div id="gifs-appear-here"></div>           
-            </div> <!--end row-->           
-        </div>   <!--end container-->
+            </form>              
+        
+            <div id ="GIFArea"></div>
+        
+        </div>  <!--end container-->
 
         <script src="./assets/javascript/game.js"></script>
 
     </body>   <!--end of body-->
 
-</html>  <!--end of html-->
+</html>  end of html -->

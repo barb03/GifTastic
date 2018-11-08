@@ -18,6 +18,7 @@ body {
 }
 
 button{
+    margin: 3px;
     border: solid 2px rgb(185, 8, 8);
     color: #fff;
     background-color: #000;
@@ -46,15 +47,16 @@ button:focus{
 #movie-input:focus{
     outline: 0;
 }
+
 label{
     color: #fff;
 }
 
-#gifs-appear-here{    
+#GIFArea{    
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
+
 p{
     color: #fff;
 }
