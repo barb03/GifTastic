@@ -48,6 +48,19 @@ button:focus{
     outline: 0;
 }
 
+#add-movie:hover{
+    background-color: rgb(185, 8, 8);   
+}
+
+#add-movie:active{
+    background-color: #fff;
+    outline: none;
+}
+
+#add-movie:focus{
+    outline: 0;
+}
+
 label{
     color: #fff;
 }

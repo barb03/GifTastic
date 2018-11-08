@@ -18,11 +18,13 @@ $(document).ready(function(){
   renderButtons();  
     
     $("#add-movie").on("click", function(event) {  
-      
-    event.preventDefault();    
-    var movie = $("#movie-input").val().trim();  
-    movies.push(movie);  
-    renderButtons();  
+      event.preventDefault(); 
+      var movie = $("#movie-input").val().trim();
+      if(movie != ""){             
+      movies.push(movie);
+      console.log(movie)  
+      renderButtons(); 
+      } //end if
   });  //end add movie
   
   
